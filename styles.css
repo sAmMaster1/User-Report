@@ -1,0 +1,57 @@
+/* Center the content vertically and horizontally */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dbc6ed; /* Light Purple Background */
+}
+
+/* Style the form container */
+form {
+  background-color: #fd9e9e; /* Lighter Red Background */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px; /* Adjusted max-width to widen the red box */
+  box-sizing: border-box;
+}
+
+/* Style form elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff; /* White Text */
+}
+
+/* Style form elements within the form container */
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Adjusted margin to center the fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding doesn't add to the width */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff7f7f; /* Lighter Red Background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff5252; /* Darker Red Background on Hover */
+}

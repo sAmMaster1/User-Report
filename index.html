@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form id="quizForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="familySize">Number of People in Your Family:</label>
+        <input type="number" id="familySize" min="0"><br><br>
+
+        <label for="dietaryHabit">Dietary Habit:</label>
+        <select id="dietaryHabit">
+            <option value="EatOut">Eat out</option>
+            <option value="CookAtHome">Cook at home</option>
+        </select><br><br>
+
+        <label for="plasticUsage">Plastic Usage:</label>
+        <select id="plasticUsage">
+            <option value="PlasticBottle">Plastic bottle</option>
+            <option value="PlasticBags">Plastic bags</option>
+            <option value="CoffeeCups">Coffee cups</option>
+            <option value="PlasticStraws">Plastic straws</option>
+        </select><br><br>
+
+        <label for="recycleFrequency">Recycling Frequency:</label>
+        <select id="recycleFrequency">
+            <option value="Weekly">Weekly</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Rarely">Rarely</option>
+            <option value="Never">Never</option>
+        </select><br><br>
+
+        <label for="groceryShoppingFrequency">Grocery Shopping Frequency:</label>
+        <select id="groceryShoppingFrequency">
+            <option value="Daily">Daily</option>
+            <option value="Weekly">Weekly</option>
+            <option value="Monthly">Monthly</option>
+        </select><br><br>
+
+        <button type="button" id="resetButton">Reset</button>
+        <button type="button" id="submitButton">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
